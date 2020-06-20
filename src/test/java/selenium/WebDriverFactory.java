@@ -12,7 +12,7 @@ public class WebDriverFactory {
 
     public static WebDriver getWebDriver(Browser browser) {
         String osName = System.getProperty("os.name");
-        String driverPath = System.getProperty("user.dir") + "/src/test/resources/drivers/";
+        String driverPath = System.getProperty("user.dir") + "/src/test/resources/selenium/webDrivers/";
         switch (browser) {
             case Chrome:
                 if (osName.startsWith("Windows"))

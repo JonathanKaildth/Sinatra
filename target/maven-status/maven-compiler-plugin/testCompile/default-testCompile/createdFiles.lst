@@ -1,0 +1,5 @@
+Sinatra\RunCucumberTest.class
+Sinatra\StepDefinitions.class
+selenium\WebDriverFactory$Browser.class
+selenium\WebDriverFactory.class
+selenium\WebDriverFactory$1.class

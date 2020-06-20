@@ -16,7 +16,13 @@ public class StepDefinitions {
 
     @Before
     public void initWebDriver() {
-        webDriver = WebDriverFactory.getWebDriver(WebDriverFactory.Browser.Firefox);
+        webDriver = WebDriverFactory.getWebDriver(WebDriverFactory.Browser.Chrome);
+    }
+
+    @After
+    public void closeWebDriver() {
+        webDriver.close();
+        webDriver.quit();
     }
 
     @Given("I'm a user navigating on Google.com")
@@ -33,10 +39,5 @@ public class StepDefinitions {
     @Then("the page must the display the login screen")
     public void setCredentials() {
         Assert.assertTrue(webDriver.getCurrentUrl().contains("accounts.google.com"));
-    }
-
-    @After
-    public void closeWebDriver() {
-        webDriver.quit();
     }
 }
