@@ -25,5 +25,18 @@
     <orderEntry type="library" scope="TEST" name="Maven: io.cucumber:cucumber-junit:6.1.1" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: junit:junit:4.13" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.hamcrest:hamcrest-core:1.3" level="project" />
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/selenium-java-3.141.59" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/selenium-java-3.141.59" />
+        </SOURCES>
+        <jarDirectory url="file://$MODULE_DIR$/selenium-java-3.141.59" recursive="false" />
+        <jarDirectory url="file://$MODULE_DIR$/selenium-java-3.141.59" recursive="false" type="SOURCES" />
+      </library>
+    </orderEntry>
   </component>
 </module>
